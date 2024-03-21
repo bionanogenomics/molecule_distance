@@ -1,4 +1,4 @@
-<img src="/images/Bionano-Logo.png" alt= “Bionano” width="5%" height="5%" title="GA"/>
+<img src="/images/Bionano-Logo.png" alt= “Bionano” width="50%" height="50%" title="GA"/>
 
 # Molecule Distance Script #
 The molecule distance workflow supplements Bionano's Guided Assembly and Rare Variant Analysis pipelines as a downstream analysis tool to identify mosaicism in repeat expansion genes or unstable insertions between 2 DLE1 molecule labels.
@@ -113,33 +113,33 @@ The script outputs multiple files:
 
 #### Complete data violin plots ####
 
-<img src="/tests/test_molecule_distance_full/guided_output/ga_test_violin_plot.png" alt= “GA” width="5%" height="5%" title="violin plots"/>
+<img src="/tests/test_molecule_distance_full/guided_output/ga_test_violin_plot.png" alt= “GA” width="50%" height="50%" title="violin plots"/>
 
 #### Complete data barplot ####
 Distance between specified start and end labels for all molecules
 
-<img src="/tests/test_molecule_distance_full/guided_output/ga_test_complete_distance_barplot.png" alt= “GA” width="5%" height="5%" title="complete data barplot"/>
+<img src="/tests/test_molecule_distance_full/guided_output/ga_test_complete_distance_barplot.png" alt= “GA” width="50%" height="50%" title="complete data barplot"/>
 
 #### Trimmed data barplot ####
 Trimmed data excludes datapoints beyond 3 standard deviation from molecule distance mean.
 
-<img src="/tests/test_molecule_distance_full/guided_output/ga_test_trimmed_distance_barplot.png" alt= “GA” width="5%" height="5%" title="trimmed data barplot"/>
+<img src="/tests/test_molecule_distance_full/guided_output/ga_test_trimmed_distance_barplot.png" alt= “GA” width="50%" height="50%" title="trimmed data barplot"/>
 
 #### Trimmed data delta barplot ####
 The y-axis plots delta, which is the distances between molecules' labels subtracted by the distance between reference labels.
 
-<img src="/tests/test_molecule_distance_full/guided_output/ga_test_trimmed_delta_barplot.png" alt= “GA” width="5%" height="5%" title="trimmed data delta plot"/>
+<img src="/tests/test_molecule_distance_full/guided_output/ga_test_trimmed_delta_barplot.png" alt= “GA” width="50%" height="50%" title="trimmed data delta plot"/>
 
 #### Auto Clustering ####
 Uses the Mclust package to determine clusters for molecule distances using a maximum-likelihood method. The example below shows clustered molecule distances between labels 26242 and 26247 in chrX.
 
-<img src="/tests/test_molecule_distance_full/guided_output/ga_test_auto_clustering.png" alt= “GA” width="5%" height="5%" title="GMM plot"/>
+<img src="/tests/test_molecule_distance_full/guided_output/ga_test_auto_clustering.png" alt= “GA” width="50%" height="50%" title="GMM plot"/>
 
 ### Interpretation of Results ###
 
 Bar plot showing molecule distances between specified labels. There are two clusters observed in blue and red. The blue cluster refer to the normal allele, while red cluster on the right half of the x-axis suggests unstable expansion.
 
-<img src="/tests/test_molecule_distance_full/guided_output/ga_test_auto_clustering.png" alt= “GA” width="5%" height="5%" title="GA"/>
+<img src="/tests/test_molecule_distance_full/guided_output/ga_test_auto_clustering.png" alt= “GA” width="50%" height="50%" title="GA"/>
 
 ## Contact ###
 
