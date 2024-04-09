@@ -1,4 +1,4 @@
-<img src="/images/Bionano-Logo.png" alt= “Bionano” width="50%" height="50%" title="GA"/>
+<img src="/images/Bionano-Logo.png" alt= “Bionano” width="5%" height="5%" title="GA"/>
 
 # Molecule Distance Script #
 The molecule distance workflow supplements Bionano's Guided Assembly and Rare Variant Analysis pipelines as a downstream analysis tool to identify mosaicism in repeat expansion genes or unstable insertions between 2 DLE1 molecule labels.
