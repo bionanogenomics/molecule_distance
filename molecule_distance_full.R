@@ -272,7 +272,7 @@ clustering <- function(completeframe,
         
         p1<-p1+
           stat_function(fun=adjusteddnorm, n=1000, args=list(mm=mod$parameters$mean[i], sd=mod$sd[i], prop=mod$parameters$pro[i]), aes(fill=!!colors[i], color=!!colors[i]), geom="area", alpha = .2)+
-          ggtitle(paste0("clustering molecule distances between", "\n labels ", startlabelid, "-", endlabelid, " in chr", ))+
+          ggtitle(paste0("clustering molecule distances between", "\n labels ", startlabelid, "-", endlabelid, " in chrom"))+
           xlab("Distance (bp) between Labels of Interest")+scale_color_discrete(guide=FALSE)+ylab("Number of Molecules")+
           # geom_vline(xintercept=27686, linetype="dashed", color = "#D55E00")+
           # xlim(25000,30000)+
